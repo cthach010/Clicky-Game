@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import FriendCard from "./components/FriendCard";
-import Nav from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Container from "./Container";
@@ -9,6 +9,7 @@ import Row from "./Row";
 import Column from "./Column";
 import friends from "./friends.json";
 import './App.css';
+
 
 class App extends Component {
  state = {
@@ -69,7 +70,7 @@ handleShuffle = () => {
 render() {
   return (
     <Wrapper>
-      <Nav
+      <Navbar
         title="Kingdom Heart Click Game"
         score={this.state.currentScore}
         topScore={this.state.topScore}
