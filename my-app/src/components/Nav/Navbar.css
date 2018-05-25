@@ -1,0 +1,11 @@
+navbar {
+    width: 100%;
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: 'Sanchez', serif, cursive;
+}
+
+a:hover {
+    color:rrgb(93, 113, 180);
+    text-decoration: none;
+  }
