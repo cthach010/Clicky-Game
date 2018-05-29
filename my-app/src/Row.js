@@ -1,12 +1,8 @@
 import React from "react";
 
-const Column = props => {
-  const size = props.size.split(" ").map(size => "col-" + size).join(" ");
-  return (
-    <div className={size}>
-      {props.children}
-    </div>
-  );
-};
+const Row = props =>
+  <div className={`row${props.fluid ? "-fluid" : ""}`}>
+    {props.children}
+  </div>;
 
-export default Column;
+export default Row;

@@ -1,11 +1,15 @@
 .wrapper {
-  background-image: url('http://longwallpapers.com/Desktop-Wallpaper/kingdom-hearts-wallpaper-free-For-Desktop-Wallpaper.jpg');
-  height: 100%;
   justify-content: space-around;
-  display: flex;
-  flex-flow: row wrap;
   align-content: flex-start;
   overflow: auto;
   padding-bottom: 50px;
+  background: rgb(114, 55, 55);
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
+body {
+  background-image: url('http://longwallpapers.com/Desktop-Wallpaper/kingdom-hearts-wallpaper-free-For-Desktop-Wallpaper.jpg');
+  background-size: cover;
+}
